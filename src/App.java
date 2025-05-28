@@ -6,6 +6,8 @@ public class App {
         Transmision transmision = new Transmision("TRS456", "Honda", "Manual", 6);
         Neumatico neumatico = new Neumatico("N001", "Michelin", 17, 32.5);
         Chasis chasis = new Chasis("C001", "Toyota", "Monocasco", 250.0);
+        SistemaFrenos frenos = new SistemaFrenos("F001", "Brembo", true, "Discos ventilados");
+
 
         System.out.println("================= Motor =================");
         motor.mostrarInformacion();
@@ -22,8 +24,10 @@ public class App {
         System.out.println("\n================= Chasis =================");
         chasis.mostrarInformacion();
         chasis.calcularCargaMaxima();
-        
 
+        System.out.println("\n================= Sistema de Frenos =================");
+        frenos.mostrarInformacion();
+        frenos.verificarABS();
     
     }
 }
