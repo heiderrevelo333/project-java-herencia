@@ -1,18 +1,15 @@
-## Getting Started
+# Project Java Herencia
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto demuestra el concepto de **herencia** en Java mediante la implementación de varias clases y su estructura jerárquica.
 
-## Folder Structure
+## 📜 Jerarquía de clases
 
-The workspace contains two folders by default, where:
+A continuación, se presenta la jerarquía de clases utilizada en el proyecto:
+![alt text](image.png)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📂 Estructura del proyecto
+![alt text](image-1.png)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🖥️ Salida por consola
+![alt text](image-2.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
